@@ -17,6 +17,7 @@ router.get("/stats", (req, res) => {
 
 // JS
 router.get("/api/workouts", (req, res) => {
+    console.log("routehit");
     workout.find().then(workoutData => {
         res.json(workoutData);
     })
@@ -44,6 +45,7 @@ router.get("/api/workouts/range", (req, res) => {
 });
 
 router.put("/api/workouts/:id", ({body,params}, res) => {
+    
     workout.findByIdAndUpdate(params.id,
         {$push:{exercises:body}})
 
