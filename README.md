@@ -15,7 +15,7 @@
 
   6:Questions
 
-![Fitness-Tracker](./public/images/screenshot.png)
+![Fitness-Tracker](./public/images/Screenshot.png)
 ## 1:Installation
 No installation necessary, just follow the link here! 
 https://fitness-tracker-hm-17.herokuapp.com/
